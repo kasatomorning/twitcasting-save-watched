@@ -1,0 +1,17 @@
+{
+    "name": "twitcasting-save-watched",
+    "description": "ツイキャスで視聴済みか否かを追加、保存できるように",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "content_scripts": [
+        {
+            "js": ["jquery-3.6.1.min.js", "moviepage.js"],
+            "matches": ["https://twitcasting.tv/*/movie/*"]
+        },
+        {
+            "js": ["jquery-3.6.1.min.js", "archivepage.js"],
+            "matches": ["https://twitcasting.tv/*/archive/"]
+        }
+    ]
+}
