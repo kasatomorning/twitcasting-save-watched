@@ -8,7 +8,7 @@
    git clone https://github.com/kasatomorning/twitcasting-save-watched
    ```
 
-2. chromeの拡張機能のページ([chrome://extensions/](chrome://extensions/))にアクセスし、「パッケージ化されていない拡張機能を読み込む」
+2. chromeの拡張機能のページ( [chrome://extensions/](chrome://extensions/) )にアクセスし、「パッケージ化されていない拡張機能を読み込む」
 
    →先程ダウンロードしたフォルダを選択
 
